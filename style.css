@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(184, 245, 184);
+}
+
+.panel{
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+}
+.ptop{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(46, 118, 46);
+}
+.hell{
+  height: 40%;
+  weight: 40%;
+  background-color: green;
+
+}
+
+.hell1{
+ height: 40%;
+  weight: 40%;
+  background-color: blue;
+}
+.hell2{
+  height: 40%;
+   weight: 40%;
+   background-color: blueviolet;
+ }
