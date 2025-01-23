@@ -9,41 +9,80 @@ body {
   width: 100%;
 }
 
-.main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    background-color: rgb(184, 245, 184);
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Corrected typo */
+  height: 100%;
+  width: 100%;
+  background-color: rgb(184, 245, 184);
 }
 
-.panel{
-    height: 80%;
-    width: 80%;
-    background-color: white;
-    border-radius: 10px;
+#panel {
+  margin: 5%; /* Added margin for spacing */
+  overflow: hidden;
+  height: 80%;
+  width: 80%;
+  background-color: white;
+  border-radius: 10px;
 }
-.ptop{
-    height: 100px;
-    width: 100%;
-    background-color: rgb(46, 118, 46);
+#ptop {
+  padding: 0 30%; /* Corrected padding syntax */
+  height: 100px;
+  width: 100%;
+  background-color: rgb(46, 118, 46);
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  gap:50px;
 }
-.hell{
-  height: 40%;
-  weight: 20%;
-  background-color: green;
 
+.elem {
+  display: flex;
+  flex-direction: row; /* Stack items vertically */
+  align-items: center;    /* Horizontally center items */
+  justify-content: center; /* Vertically center items */
+   /* Background color for testing */
+  padding: 10px;          /* Add some padding */
+  border-radius: 10px; 
+  gap: 10px;   /* Optional rounded corners */
 }
 
-.hell1{
- height: 40%;
-  weight: 40%;
-  background-color: blue;
+.elem h2 {
+  font-weight: 500;
+  font-size: 20px;
+ 
 }
-.hell2{
-  height: 40%;
-   weight: 40%;
-   background-color: blueviolet;
 
- }
+.box {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 5px;
+  color: rgb(75, 206, 75);
+  font-size: 20px;
+}
+
+#pbtm {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  padding: 20px;
+  height: calc(100% - 100px);
+}
+
+.bubble {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(75, 206, 75); /* Added background color for visibility */
+  color: white;
+  border-radius: 50%; /* Ensures the element is a circle */
+  display: flex; /* Centers text inside the circle */
+  align-items: center;
+  justify-content: center;
+  font-size: 14px; /* Adjust text size for better fit */
+  font-weight: 500;
+}
