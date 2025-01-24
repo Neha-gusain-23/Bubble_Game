@@ -67,11 +67,14 @@ body {
 
 #pbtm {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 10px;
   width: 100%;
   padding: 20px;
   height: calc(100% - 100px);
+  color: rgb(106, 230, 106);
 }
 
 .bubble {
